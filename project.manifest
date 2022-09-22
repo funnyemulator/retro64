@@ -11,7 +11,7 @@
 			"md5": "6c5ed2313656a33c3d0c5efa326ce4ae"
 		},
 		"main.js": {
-			"md5": "a92af332008c0d55b910cd3034a2b1db"
+			"md5": "d2d10bbdc407fcd38de41b923642110c"
 		},
 		"project.json": {
 			"md5": "4afcf486badfd02fb55ad95dff6b2c8b"
@@ -2189,7 +2189,7 @@
 			"md5": "0b9c9c6e535fb5a5c21774527c77def5"
 		},
 		"res/db_config/default.json": {
-			"md5": "8631d1791ce8476a3711fc95ab935d42"
+			"md5": "9ad5f5fd4516c388b28e05e3511d38b2"
 		},
 		"res/db_gba": {
 			"md5": "59df58927e3e0589fb546524cba28f61"
@@ -4832,7 +4832,7 @@
 			"md5": "372d35d7d54d9791b9cb9d587cb5e8dd"
 		},
 		"res/UI/FindROMLayer.json": {
-			"md5": "22e03bbc5fb5ea4196ac1e2e8f664de9"
+			"md5": "fe481c51527fb5db930479a0634ddc0d"
 		},
 		"res/UI/fonts/Arial-BoldMT.ttf": {
 			"md5": "ac8ce60bf9ef976a52176e90335cab62"
@@ -4868,7 +4868,7 @@
 			"md5": "b09b40197d5abcca492244958400f93b"
 		},
 		"res/UI/Home.json": {
-			"md5": "9964d6d5cd4cdd295ee322bde430d58c"
+			"md5": "b4615bab036fe9246ca0247dc16e8889"
 		},
 		"res/UI/HomeP.json": {
 			"md5": "050baaeb1a63b3d8d3741fc23990258c"
@@ -4994,7 +4994,7 @@
 			"md5": "bbc0ba1d22cf4ce72692b9c461cc1358"
 		},
 		"res/UI/RemoveADSLayer.json": {
-			"md5": "75a9384867126b00e79f9d45975295b1"
+			"md5": "294944d1e850953ba35c979b5cdc91db"
 		},
 		"res/UI/RomCell.json": {
 			"md5": "c9e0f440c296c6a09d182d0cf63bae09"
@@ -5039,7 +5039,7 @@
 			"md5": "7d38ae504d1f7f0d76c6d237052bac5f"
 		},
 		"res/UI/StartupScene.json": {
-			"md5": "baaad9ac5737f90e3e1562d4e3505ffb"
+			"md5": "0dd5ddd9a25332b9eb5127c03c671d9b"
 		},
 		"res/UI/StartupScene_Retro64.json": {
 			"md5": "c32c8379a3b7c1c19ca4b45f0e9bb38c"
@@ -5048,19 +5048,19 @@
 			"md5": "0a615473c6e6d9c43a37dd65deaf5005"
 		},
 		"res/UI/store/stores.plist": {
-			"md5": "6c4be0e53643e961f4b07813fc8e8c21"
+			"md5": "cc30258f2d70e7a5bc7028658a8e8717"
 		},
 		"res/UI/store/stores.png": {
-			"md5": "5fcb6419c75b9a8dc72f39c8c61bb001"
+			"md5": "11bd09b5745220aef919b055e267c9d7"
 		},
 		"res/UI/stores.plist": {
-			"md5": "6c4be0e53643e961f4b07813fc8e8c21"
+			"md5": "75feaabbe78347ef0f28836051c309a8"
 		},
 		"res/UI/stores.png": {
-			"md5": "5fcb6419c75b9a8dc72f39c8c61bb001"
+			"md5": "11bd09b5745220aef919b055e267c9d7"
 		},
 		"res/UI/ToastLayer.json": {
-			"md5": "bd3937166a246b135eac3334c5074775"
+			"md5": "c2e9a18accb20287809e08015a7d08e1"
 		},
 		"script/3d/jsb_cocos2d_3d.js": {
 			"md5": "231595ffd7eba6f80b5d0b75fee69062"
@@ -5384,7 +5384,7 @@
 			"md5": "00f6787ad6d530c52f4c53f21afa36f2"
 		},
 		"src/framework/plugins/Admob.js": {
-			"md5": "f382238757e00f7c4a355a5264a1cef6"
+			"md5": "4c2f7babd81eb066ac0f2e6cac72e52c"
 		},
 		"src/framework/plugins/Appflyer.js": {
 			"md5": "1d456377bca2ee90fae8649e8a539092"
@@ -5405,7 +5405,7 @@
 			"md5": "e06859bbce0363d9856c18661afbf0eb"
 		},
 		"src/framework/plugins/Google.js": {
-			"md5": "62aa0181c6c72f8ca15378ca966ee3bf"
+			"md5": "d31ec4a14f8788c745aa9ee74d40aee0"
 		},
 		"src/framework/plugins/IronSource.js": {
 			"md5": "9ae9142864c144f2b3cef78a2af1ba6b"
@@ -5414,7 +5414,7 @@
 			"md5": "35bb8f53cc21d2d600101ebd3fc7ad9f"
 		},
 		"src/framework/plugins/PlatformWrapper.js": {
-			"md5": "cd3f74948265d3befeac204d68697de4"
+			"md5": "5e107ab38bf2c0a90a36f926dc171e74"
 		},
 		"src/framework/plugins/Portal.js": {
 			"md5": "e943e77a0f1944259e0dc8f1b1a766bd"
@@ -5474,7 +5474,7 @@
 			"md5": "1fbbf170a6d2ee95f160f83dbb1b7ca0"
 		},
 		"src/NES/adsMgr.js": {
-			"md5": "db531709a92cee07e9fad1382c18bddc"
+			"md5": "a5d68c274ff4acee49cf6ca55b3a5002"
 		},
 		"src/NES/Constant.js": {
 			"md5": "ba2009401c1a469713b3143eb1a99eda"
@@ -5516,7 +5516,7 @@
 			"md5": "b5e54ca678dc4b43dafc0d95057029ac"
 		},
 		"src/NES/Game/GameLayer.js": {
-			"md5": "66bf0cd6b32bd5333db36420b445b643"
+			"md5": "51480d3983759d375da4085010f81b31"
 		},
 		"src/NES/Game/GameLayerN64.js": {
 			"md5": "6d6cb5b7e6563be5154ae4f8ab210ae5"
@@ -5528,40 +5528,40 @@
 			"md5": "eadee8f8d74dc6ce1167e5010824734f"
 		},
 		"src/NES/gamedata.js": {
-			"md5": "c5864a3ea2c70b06c271d32ffa9b1e19"
+			"md5": "d4b93d05dead63641c7313275b013aa3"
 		},
 		"src/NES/Home/FindROMLayer.js": {
-			"md5": "4ca87946572df49a7492cce02c992a39"
+			"md5": "bc9ac1ad85cb1c3d8a659988b99e008a"
 		},
 		"src/NES/Home/Home.js": {
-			"md5": "88aa7a3ae3a2662d9f9b0e7e2c087c5b"
+			"md5": "f6e96f0f8d26b93c082c3bd1d996650a"
 		},
 		"src/NES/Home/InfoRomLayer.js": {
 			"md5": "717ba7d43eb0e58e3056d79e77019072"
 		},
 		"src/NES/Home/ListRomGBALayer.js": {
-			"md5": "940e66aa66387f5fb96d30b2ed2c66bb"
+			"md5": "2c1575c679a6e46974b9b07ed32f839b"
 		},
 		"src/NES/Home/ListRomLayer.js": {
-			"md5": "ed38c08e36cdf641e1e27fc31ec6a140"
+			"md5": "32fece70ec442d00087a253b1181e007"
 		},
 		"src/NES/Home/ListRomN64Layer.js": {
-			"md5": "f0ea5909789fe676afe98b541239243c"
+			"md5": "42e71786b5c71a6eb9c58799f4c599bf"
 		},
 		"src/NES/Home/ListRomSNESLayer.js": {
-			"md5": "25c75a0dae35b58292f813cbe292fd35"
+			"md5": "24310ba45e3606d6c3dc48e34f2f1da0"
 		},
 		"src/NES/Home/MenuLayer.js": {
 			"md5": "4ce4aedef9b70804b751270f10c033fa"
 		},
 		"src/NES/Home/RemoveADSLayer.js": {
-			"md5": "03dbf5807761bb6661cea249fc7616a6"
+			"md5": "ca878934825ae07e688ec8530fb5711e"
 		},
 		"src/NES/Home/Shop.js": {
-			"md5": "d05a5c5b156c88826cd90130adfc40e4"
+			"md5": "115ab64fab72b6c8ab758b84551019cc"
 		},
 		"src/NES/Home/StartupScene.js": {
-			"md5": "1617eb8b8f4ab3be5bed39e816bc8b4d"
+			"md5": "24c4d00545f8df0a51a998d61f1a9a47"
 		},
 		"src/NES/initForWeb.js": {
 			"md5": "c785a44e41b7296ec26baff22bf016ab"
@@ -5570,7 +5570,7 @@
 			"md5": "33dda69b919c6ba1f2783deb72257d8b"
 		},
 		"src/NES/logic/datamanager.js": {
-			"md5": "c6423190e857fde4337b7e78ddaf2225"
+			"md5": "2c8d7553162151fff7c9357b77d20aff"
 		},
 		"src/NES/logic/downloadMgr.js": {
 			"md5": "c536268f60f2e08f6fc2b8baf334dcfa"
@@ -5588,7 +5588,7 @@
 			"md5": "8517477ae8ac9fbe5c6b3bee58d10c66"
 		},
 		"src/NES/NESViewer.js": {
-			"md5": "4021a87fa9063d31319daa4e42274d23"
+			"md5": "62dfafe98cf165e1a89ae8117a854510"
 		},
 		"src/NES/Notification/NotificationNode.js": {
 			"md5": "8713e58aac9047ed9e8325d241d3ff82"
@@ -5597,10 +5597,10 @@
 			"md5": "6f75bada53b6b9aae03ca89d7480fab7"
 		},
 		"src/NES/tracking.js": {
-			"md5": "9f48462ea603c17858211eafb796b41f"
+			"md5": "c710f620fbce63b307b641579a7b8ff1"
 		},
 		"src/NES/UI/BaseLayer.js": {
-			"md5": "d43ca569a0f34b1e6fe32b58e6806e7c"
+			"md5": "ddf95796444ad3e7c9299de2f15606fd"
 		},
 		"src/NES/UI/Dialog.js": {
 			"md5": "fa33914ddbfa135ab4f30d176b0430fa"
