@@ -5534,7 +5534,7 @@
 			"md5": "bc9ac1ad85cb1c3d8a659988b99e008a"
 		},
 		"src/NES/Home/Home.js": {
-			"md5": "f6e96f0f8d26b93c082c3bd1d996650a"
+			"md5": "a85c00643f4df43ad1bc117219b89cd6"
 		},
 		"src/NES/Home/InfoRomLayer.js": {
 			"md5": "717ba7d43eb0e58e3056d79e77019072"
@@ -5561,7 +5561,7 @@
 			"md5": "115ab64fab72b6c8ab758b84551019cc"
 		},
 		"src/NES/Home/StartupScene.js": {
-			"md5": "24c4d00545f8df0a51a998d61f1a9a47"
+			"md5": "73ecd24dafaf674c80066a0ff6b5c111"
 		},
 		"src/NES/initForWeb.js": {
 			"md5": "c785a44e41b7296ec26baff22bf016ab"
