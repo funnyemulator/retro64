@@ -11,7 +11,7 @@
 			"md5": "6c5ed2313656a33c3d0c5efa326ce4ae"
 		},
 		"main.js": {
-			"md5": "10f48bd7dd553cd976820f781848b44e"
+			"md5": "2472920e031b73a24aba2bfa03187d06"
 		},
 		"project.json": {
 			"md5": "1a0486afbe8cae339aef4f94aa883599"
@@ -5648,7 +5648,7 @@
 			"md5": "94fde6bb6c7b3a2d9226952cf45366f8"
 		},
 		"src/NES/Game/Joystick.js": {
-			"md5": "31a037ce9c0a8088feb20eb40b8d5b2d"
+			"md5": "273d5ecaedd1fd1d5a5725c277ee9eb3"
 		},
 		"src/NES/gamedata.js": {
 			"md5": "86bf464637c4e4fc794a51fb891e9281"
@@ -5684,7 +5684,7 @@
 			"md5": "8340b09f7dc7c8a232026d24d921c2ce"
 		},
 		"src/NES/Home/Promo/PromoLayer.js": {
-			"md5": "a9609174196e0f7408a8935eb9282f15"
+			"md5": "4694cb6f666a1697ae96f07a03454ecb"
 		},
 		"src/NES/Home/RemoveADSLayer.js": {
 			"md5": "fb5444362876a3a1a90c76461af676ad"
