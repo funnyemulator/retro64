@@ -4,7 +4,7 @@
 	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.4.4/version.manifest",
 	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.4.4/download.manifest",
 	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.4.4/",
-	"version" : "4",
+	"version" : "6",
 	"engineVersion" : "1.0.0",
 	"assets" : {},
 	"group" : {},
