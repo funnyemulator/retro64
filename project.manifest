@@ -4,7 +4,7 @@
 	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.4.5/version.manifest",
 	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.4.5/download.manifest",
 	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.4.5/",
-	"version" : "3",
+	"version" : "2",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
@@ -4907,7 +4907,7 @@
 			"md5": "e397108334c90021ef9b65f8b4eec52c"
 		},
 		"res/UI/GameLayer_N64.json": {
-			"md5": "b09b40197d5abcca492244958400f93b"
+			"md5": "87d63e9cee2682a921d3dc61fea1c80e"
 		},
 		"res/UI/GameLayer_SNK.json": {
 			"md5": "43e0bd5bdaad185ddede7827794fd88b"
@@ -5687,7 +5687,7 @@
 			"md5": "45995a97a11d4ee6e49680f0b52e737e"
 		},
 		"src/NES/Game/GameLayerN64.js": {
-			"md5": "ad71ec608b0bb9882c46ba05aea15d6b"
+			"md5": "9c2ff222b4070ab1e90995da503d5970"
 		},
 		"src/NES/Game/GameLayerSNK.js": {
 			"md5": "a22dadef114b045addb4161785d49429"
@@ -5777,7 +5777,7 @@
 			"md5": "6f75bada53b6b9aae03ca89d7480fab7"
 		},
 		"src/NES/tracking.js": {
-			"md5": "0eeae51df88d72675c38fa7657cb49cf"
+			"md5": "6a26b5bf83a6eb5c07842ea47652b7b2"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
