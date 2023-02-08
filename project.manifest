@@ -4,7 +4,7 @@
 	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.5.0/version.manifest",
 	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.5.0/download.manifest",
 	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.5.0/",
-	"version" : "2",
+	"version" : "1",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
@@ -5618,7 +5618,7 @@
 			"md5": "e06859bbce0363d9856c18661afbf0eb"
 		},
 		"src/framework/plugins/Google.js": {
-			"md5": "d31ec4a14f8788c745aa9ee74d40aee0"
+			"md5": "bbf371708363656813e044dcdcf1c50d"
 		},
 		"src/framework/plugins/IronSource.js": {
 			"md5": "9ae9142864c144f2b3cef78a2af1ba6b"
@@ -5687,7 +5687,7 @@
 			"md5": "1fbbf170a6d2ee95f160f83dbb1b7ca0"
 		},
 		"src/NES/adsMgr.js": {
-			"md5": "cb02587de6fb2cb67f584592792999d1"
+			"md5": "f6ddeb445c7c66254f68666a6ad59c50"
 		},
 		"src/NES/Constant.js": {
 			"md5": "cdd598a589c99a5a3609bd40e88f2e7c"
@@ -5747,7 +5747,7 @@
 			"md5": "92a99db046682c34374c02a9fe431347"
 		},
 		"src/NES/gamedata.js": {
-			"md5": "2bb1dc4eab4819f3cd096145f4545836"
+			"md5": "6cf54f578b2a30ea4ecedf51e8b28e78"
 		},
 		"src/NES/Home/FindROMLayer.js": {
 			"md5": "a11857973e4c06cbc4a7a45cf9df99ce"
@@ -5783,10 +5783,10 @@
 			"md5": "0b7e0e057dfb95b3f295171921c4dc73"
 		},
 		"src/NES/Home/RemoveADSLayer.js": {
-			"md5": "fb5444362876a3a1a90c76461af676ad"
+			"md5": "943b31c0bf05858f60f9912202344b3c"
 		},
 		"src/NES/Home/Shop.js": {
-			"md5": "ac1996dc79a6c3cfe92d37bb5e1b4703"
+			"md5": "30bb43071da4cf9439a5b94f5b880da3"
 		},
 		"src/NES/Home/StartupScene.js": {
 			"md5": "4b5372bbd8d1a1afed89e070559d0c1d"
@@ -5825,7 +5825,7 @@
 			"md5": "db152d2c52b1d698698fd93f57f7fa6c"
 		},
 		"src/NES/tracking.js": {
-			"md5": "ef91ac779cd58506ad5c86d337f3008b"
+			"md5": "bec06f1a4c7922435be96799c481f11b"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
