@@ -4,7 +4,7 @@
 	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.5.0/version.manifest",
 	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.5.0/download.manifest",
 	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/retro64/v1.5.0/",
-	"version" : "2",
+	"version" : "3",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
@@ -5687,7 +5687,7 @@
 			"md5": "1fbbf170a6d2ee95f160f83dbb1b7ca0"
 		},
 		"src/NES/adsMgr.js": {
-			"md5": "be4a9ec05f2cc41bcb6d66066fc5471c"
+			"md5": "f6ddeb445c7c66254f68666a6ad59c50"
 		},
 		"src/NES/Constant.js": {
 			"md5": "cdd598a589c99a5a3609bd40e88f2e7c"
