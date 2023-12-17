@@ -1,20 +1,20 @@
 {
-	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/main/",
-	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/main/project.manifest",
-	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/main/version.manifest",
-	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/main/download.manifest",
-	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/retro64/main/",
-	"version" : "4",
+	"packageUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v2.0.0/",
+	"remoteManifestUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v2.0.0/project.manifest",
+	"remoteVersionUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v2.0.0/version.manifest",
+	"remoteDownloadUrl" : "https://raw.githubusercontent.com/funnyemulator/retro64/v2.0.0/download.manifest",
+	"remoteDownloadPrefix" : "https://raw.githubusercontent.com/funnyemulator/retro64/v2.0.0/",
+	"version" : "1",
 	"engineVersion" : "1.0.0",
 	"assets" : {
 		"config.json": {
-			"md5": "6c5ed2313656a33c3d0c5efa326ce4ae"
+			"md5": "e2e0547712db813066db3d15444286c7"
 		},
 		"main.js": {
-			"md5": "d2d10bbdc407fcd38de41b923642110c"
+			"md5": "4d4f7ed1ef500e18deb610340f4e0b06"
 		},
 		"project.json": {
-			"md5": "4afcf486badfd02fb55ad95dff6b2c8b"
+			"md5": "625f0ce238e72bfddb0dc45d8413722b"
 		},
 		"res/cacert.pem": {
 			"md5": "30b3a35c62261542e0094ee94e3c7265"
@@ -686,7 +686,7 @@
 			"md5": "f7efc3ccdfb29f610e671836eb785307"
 		},
 		"res/CoreData/Shaders/Library/Varying.glsl": {
-			"md5": "09a2829b8c3b72099367373bcb867c59"
+			"md5": "1954ea88ca01a7c208edefceabd320f9"
 		},
 		"res/CoreData/Shaders/Library/VertexInput.glsl": {
 			"md5": "9b8a4080835e4d0cadd336a095f9f719"
@@ -2189,19 +2189,22 @@
 			"md5": "0b9c9c6e535fb5a5c21774527c77def5"
 		},
 		"res/db_config/default.json": {
-			"md5": "9ad5f5fd4516c388b28e05e3511d38b2"
+			"md5": "74c4280f9d0547474739fc27e0c499b2"
 		},
-		"res/db_gba": {
-			"md5": "59df58927e3e0589fb546524cba28f61"
+		"res/db_gba.txt": {
+			"md5": "8a383ce9e36ac17b569fb156ce837bc3"
 		},
-		"res/db_n64": {
-			"md5": "660fc4fd4a517c559c43c1f8e78ce3dd"
+		"res/db_mame.txt": {
+			"md5": "775c28786d9c353cf9bad5478a637fc0"
 		},
-		"res/db_nes": {
-			"md5": "069d844845d9a9eb729c7c1c5bb29c96"
+		"res/db_n64.txt": {
+			"md5": "167d8f808cbd696e3ec699364ba1d053"
 		},
-		"res/db_snes": {
-			"md5": "ee7343c1bf949e126fb1f0e9ea78929a"
+		"res/db_nes.txt": {
+			"md5": "4c0b3084f5db6fe6f6cfeb079ea4b5eb"
+		},
+		"res/db_snes.txt": {
+			"md5": "c7138ebd99bb63c5aded531934ada217"
 		},
 		"res/gba_roms/master/arts/0025 - Super Mario Advance (U)(Eurasia).jpg": {
 			"md5": "3c0930c68bbdafcac3cca5d244af49a7"
@@ -2781,9 +2784,6 @@
 		},
 		"res/localize/vie/lang_vie.txt": {
 			"md5": "dc826e229e3b3405cc925638a0622971"
-		},
-		"res/localize/vie/vi": {
-			"md5": "35326c3519c7dcc3db4a333deefccaf8"
 		},
 		"res/localize/vie/vi.txt": {
 			"md5": "34f4b9fca84dd65534a9b5b21cf555b8"
@@ -4156,8 +4156,17 @@
 		"res/n64_rom/master/art/Zelda_no_Densetsu_Toki_no_Ocarina.jpg": {
 			"md5": "df91af448ca848d9ba7e62e8adf09f7d"
 		},
+		"res/SCPH1001.bin": {
+			"md5": "4134af74e78ffe06da274def7334926d"
+		},
 		"res/shaders/BlurSprite.mat": {
 			"md5": "747bf866d6753aa30d5e6755609d0989"
+		},
+		"res/shaders/DotMask.mat": {
+			"md5": "4f1cd05fddb1bbe319aeb446a598eec1"
+		},
+		"res/shaders/DotMask_NES.mat": {
+			"md5": "c893e2fc942544783dba362c41d22de8"
 		},
 		"res/shaders/GBA.mat": {
 			"md5": "cc6b568c44b5c8be6d0772bda8ab7b52"
@@ -4165,17 +4174,44 @@
 		"res/shaders/NES.mat": {
 			"md5": "4ec8cda6c31e3de00b941b39d8bc24f0"
 		},
+		"res/shaders/overlay/Default.glsl": {
+			"md5": "c0f8f3b13fdad8f86c58fd3c2d8daab8"
+		},
+		"res/shaders/overlay/DotMask.glsl": {
+			"md5": "8107af1cc5ac2a38cb882fbfe23224a1"
+		},
+		"res/shaders/overlay/Scanlines.glsl": {
+			"md5": "4539bf07f0bfe236036f85704004b55d"
+		},
+		"res/shaders/Scanlines.mat": {
+			"md5": "fc388bd000617c764168e928d6a0a952"
+		},
+		"res/shaders/Scanlines_NES.mat": {
+			"md5": "03b380b9f662da784c9825cdc6341c96"
+		},
 		"res/shaders/varying.def.sc": {
-			"md5": "1d01344000b0198bf62216b6bcd7819a"
+			"md5": "77afca8170d4c21b65ce454f2f1a3582"
 		},
 		"res/shaders/vfs_BlurSprite.sc": {
 			"md5": "ab7a9b982a79995f35f6602716c4a133"
 		},
+		"res/shaders/vfs_DotMask.sc": {
+			"md5": "5443135f5ebe7338fe54d675f81359f3"
+		},
 		"res/shaders/vfs_GBA.sc": {
-			"md5": "0a52419627c1d379a9760af95af48388"
+			"md5": "21d693ce426af14ca7f7a1ebd6e6004e"
 		},
 		"res/shaders/vfs_NES.sc": {
 			"md5": "9109825cc90986f1244bb8332a70d49e"
+		},
+		"res/shaders/vfs_NES_DotMask.sc": {
+			"md5": "114e16b8b8ff26fbd930520e32a4c317"
+		},
+		"res/shaders/vfs_NES_Scanlines.sc": {
+			"md5": "a39c340940ab5d71bda26d069371ed48"
+		},
+		"res/shaders/vfs_Scanlines.sc": {
+			"md5": "bb76b4f26d2cc663c819ba0dc5bbacb9"
 		},
 		"res/snes/master/rom_arts/actraiser_usa.jpg": {
 			"md5": "294bee0af24e1ece7028b21bc59eb559"
@@ -4657,26 +4693,41 @@
 		"res/snes/master/rom_arts/zombies_ate_my_neighbors_usa.jpg": {
 			"md5": "cb4af60f6fa1387b8c06d5edd885cdfd"
 		},
-		"res/UI/background/WallpaperDog-10771200.jpg": {
-			"md5": "dc960301e8120ffc2ab8484387ad6bbc"
+		"res/UI/background/429980.jpg": {
+			"md5": "b190e7d9d7a779fc2f38021c657b3051"
 		},
-		"res/UI/background/WallpaperDog-10771207.jpg": {
-			"md5": "cd27d866b40bb1b0212c279708e2e077"
+		"res/UI/background/bg_contra.png": {
+			"md5": "c47f8e14808319f4daf5448f34e287ea"
+		},
+		"res/UI/background/island.jpg": {
+			"md5": "896aefd5b1a99cb54ede0d0419378203"
+		},
+		"res/UI/background/kong.jpg": {
+			"md5": "f391297bf173239ce509a038dced96e0"
+		},
+		"res/UI/background/mame_bg.jpg": {
+			"md5": "e23bc4a27d678830a812cb6b92e7ab82"
+		},
+		"res/UI/background/retro_game.jpg": {
+			"md5": "968675713ec85663ba47bb068e499e91"
+		},
+		"res/UI/background/super-mario-bros-level-ending.jpg": {
+			"md5": "2bc3796fe6dbf77b361231a798088d1f"
 		},
 		"res/UI/background/WallpaperDog-10771300.jpg": {
 			"md5": "298c1c0ee0c0789a7c9870f310ae6121"
 		},
-		"res/UI/background/WallpaperDog-10771304.jpg": {
-			"md5": "9a3121371d9c23608dc2fb48846349c9"
-		},
 		"res/UI/background/WallpaperDog-10771454.jpg": {
 			"md5": "8ab10012159162f4f75f0c50b653a0b2"
 		},
-		"res/UI/background/WallpaperDog-10771471.jpg": {
-			"md5": "4326e655fac0702268016a7b5dffc1eb"
+		"res/UI/background/wp2608155.jpg": {
+			"md5": "aa3b4699b7498d3460d3f747a8997887"
 		},
 		"res/UI/button/bg_button.png": {
 			"md5": "1ffc49ad4e40752538cd1b8a533ef13e"
+		},
+		"res/UI/button/bg_button_2.png": {
+			"md5": "6196fa1fbbf7bb5b8db22c8b4ba2b132"
 		},
 		"res/UI/button/bg_gameboy.png": {
 			"md5": "64b08f363d6094096ae98033658daf00"
@@ -4714,11 +4765,23 @@
 		"res/UI/button/L.png": {
 			"md5": "a7c952b014a8b6688a4e5d00d73d623f"
 		},
+		"res/UI/button/o_button.png": {
+			"md5": "270450cd6a44e920cd09b178f2c746f6"
+		},
 		"res/UI/button/R.png": {
 			"md5": "b72ce8e03e6ce514ef4633f145546dab"
 		},
 		"res/UI/button/shot.png": {
 			"md5": "42118078f0f2af9b0fb5eae7c649982d"
+		},
+		"res/UI/button/squard.png": {
+			"md5": "8e9c997db362cba2c5e3405582985cb5"
+		},
+		"res/UI/button/triangle_button.png": {
+			"md5": "8a4e616f6ce91598eab7ceb131ff56c9"
+		},
+		"res/UI/button/x_button.png": {
+			"md5": "cce1d7b958ece54e2481183378377523"
 		},
 		"res/UI/common/8bit.png": {
 			"md5": "5bccda6dd26dcb2269279260f79ec108"
@@ -4783,6 +4846,9 @@
 		"res/UI/Default/Button_Press.png": {
 			"md5": "196a2b3a9903e60fc56925207ae0db5c"
 		},
+		"res/UI/Default/ImageFile.png": {
+			"md5": "d0498e271573e8d0c9e936263c570633"
+		},
 		"res/UI/Default/Slider_Back.png": {
 			"md5": "c2771fa07f15afa82abe6cb8d14a9dac"
 		},
@@ -4793,7 +4859,10 @@
 			"md5": "a0e1ba25a64fafd86ab3086f8c5c5559"
 		},
 		"res/UI/Dialog.json": {
-			"md5": "5e36e9db41b41e0d381c9ec848ddf309"
+			"md5": "7a969c884f8f77186329128e8927e143"
+		},
+		"res/UI/Dialog_Reward.json": {
+			"md5": "1a212afbc13b2735a085c56859d018af"
 		},
 		"res/UI/digital_control/lig_dpad_down.png": {
 			"md5": "9a97c33633914977ddd91052b1ed3193"
@@ -4826,10 +4895,13 @@
 			"md5": "d723445a60cceccdcc49a88a93b459b7"
 		},
 		"res/UI/DownloadPopupGBA.json": {
-			"md5": "d60c249118ce9a915a321c141c7189c8"
+			"md5": "d5892053124b06e2645f59fff02254d7"
 		},
 		"res/UI/DownloadPopupSNES.json": {
-			"md5": "372d35d7d54d9791b9cb9d587cb5e8dd"
+			"md5": "3521a859d26caec0f9c123d3b5704c2c"
+		},
+		"res/UI/DownloadPopupSNK.json": {
+			"md5": "f417140bdb558e90e6a28e30d2d355c9"
 		},
 		"res/UI/FindROMLayer.json": {
 			"md5": "fe481c51527fb5db930479a0634ddc0d"
@@ -4859,19 +4931,40 @@
 			"md5": "1ba18becb4520645a7f80cf9513bf473"
 		},
 		"res/UI/GameLayer.json": {
-			"md5": "cf423925963bc371d1b51259fd18a92d"
+			"md5": "f6db3fbff2cd1af5744852f8afa49916"
 		},
 		"res/UI/GameLayerP.json": {
-			"md5": "e397108334c90021ef9b65f8b4eec52c"
+			"md5": "0691ce99db6eedba1e64c8803a25e304"
 		},
 		"res/UI/GameLayer_N64.json": {
-			"md5": "b09b40197d5abcca492244958400f93b"
+			"md5": "c1de80f571d6515a275052c4a86fffd8"
+		},
+		"res/UI/GameLayer_SNK.json": {
+			"md5": "43e0bd5bdaad185ddede7827794fd88b"
 		},
 		"res/UI/Home.json": {
-			"md5": "b4615bab036fe9246ca0247dc16e8889"
+			"md5": "5f7b99f172c959821b3e2d8efbed7a42"
 		},
 		"res/UI/HomeP.json": {
 			"md5": "050baaeb1a63b3d8d3741fc23990258c"
+		},
+		"res/UI/Home_Common.json": {
+			"md5": "d527dfb6e7167d0b1cb3969b8c94f55d"
+		},
+		"res/UI/Home_MetalSlug.json": {
+			"md5": "4b4c83802308a6e3c67427ffe2a63915"
+		},
+		"res/UI/Home_SNK.json": {
+			"md5": "ca0608b2c3294cdc75b570aff5351406"
+		},
+		"res/UI/Home_SNK_FC.json": {
+			"md5": "41cc72e97ead17733d02f0961e7e485e"
+		},
+		"res/UI/icons/10004-0.png": {
+			"md5": "43afc788a0ca74d27b277a3831993a81"
+		},
+		"res/UI/icons/10008-0.png": {
+			"md5": "63634dd2490173d7d163e2ee542aef5d"
 		},
 		"res/UI/icons/1185871.png": {
 			"md5": "8f649cdc75eda55f5bcd32d7a9fc904f"
@@ -4887,6 +4980,9 @@
 		},
 		"res/UI/icons/gba_2.png": {
 			"md5": "d272a3dffc63e4722e6b4a102e5afc93"
+		},
+		"res/UI/icons/mario-icon-28.png": {
+			"md5": "df5a191ab6c9753e516f7e0d579a314a"
 		},
 		"res/UI/icons/n64.png": {
 			"md5": "9226e5624d8e4a844b3528fa5b694516"
@@ -4909,23 +5005,71 @@
 		"res/UI/icons/snes2.png": {
 			"md5": "7993749ecb3354f36ab62c5c778b9402"
 		},
+		"res/UI/image/app_icon_round.png": {
+			"md5": "3972c4b8bea9857dfef771c6d22bfe4b"
+		},
+		"res/UI/image/contra.png": {
+			"md5": "6dc5442cf9452e3c653d47f9586cf43b"
+		},
 		"res/UI/image/getit.png": {
 			"md5": "7dd0c47b3d12a60faeaeb4bf5f687f36"
 		},
 		"res/UI/image/icon_promo.png": {
 			"md5": "cf97ead1620db356a15bd0cf7a65c840"
 		},
+		"res/UI/image/icon_snk.png": {
+			"md5": "6dfa5d38572b1fa48e451ad908003c6f"
+		},
+		"res/UI/image/kong_icon.png": {
+			"md5": "4c31420ca53b93e0bc8d528c6ff0db64"
+		},
+		"res/UI/image/mariokarttour.png": {
+			"md5": "09c25608b274c83cc0346dd420ad5311"
+		},
+		"res/UI/image/promo_label.png": {
+			"md5": "5245171aaca1f139e657da80a22a8ba2"
+		},
 		"res/UI/JoystickN64.json": {
-			"md5": "b2dfe1b04c0191bc4c3605493dcdccda"
+			"md5": "4117ba104e1ccc674ff566d629ba3582"
 		},
 		"res/UI/JoystickNES.json": {
-			"md5": "602b7e092ca54cc7ad8fcd4155c6b4dc"
+			"md5": "922e50413553b5aebc7e51c7e9a09bf6"
+		},
+		"res/UI/JoystickPS.json": {
+			"md5": "1b5e0360af567e13873a8e2d1abe93e4"
+		},
+		"res/UI/JoystickSNK.json": {
+			"md5": "d74b7185384f3f045765e9ccd021292a"
 		},
 		"res/UI/MenuLayer.json": {
-			"md5": "d9bfa207651b9d17e98a13e6eb8858cf"
+			"md5": "7ce91bbff562854057759ef2ceccbdac"
+		},
+		"res/UI/MoreGames.json": {
+			"md5": "6f62e2937308f4a98b2a52e8959188ad"
+		},
+		"res/UI/mslug/mlug6.png": {
+			"md5": "c27e88bff17f7b11ee03420f1fb14c41"
+		},
+		"res/UI/mslug/mslug.png": {
+			"md5": "c5039bd531884cbff060ed1a976d59a5"
+		},
+		"res/UI/mslug/mslug2.png": {
+			"md5": "9f2e38bd467644f96922961a815e77e0"
+		},
+		"res/UI/mslug/mslug3.png": {
+			"md5": "9c64eff869711e271627a78d20137b7b"
+		},
+		"res/UI/mslug/mslug4.png": {
+			"md5": "9c1eca39018475ef16c20278c6859ae3"
+		},
+		"res/UI/mslug/mslug5.png": {
+			"md5": "d94c0ee9fb26c4d176cbd62946140582"
+		},
+		"res/UI/mslug/mslugx.png": {
+			"md5": "434ddecb33de856544c6f0e5e1630c60"
 		},
 		"res/UI/MultiplayerLayer.json": {
-			"md5": "3a077dee5692aa6043b3b494d9ce5683"
+			"md5": "4ef803fd3a2185d2cabcfff61fa9455d"
 		},
 		"res/UI/n64/analog-back.png": {
 			"md5": "fa27b5711446b046d2248d6b28601dcc"
@@ -4985,19 +5129,40 @@
 			"md5": "797512c511863e5ea756f5542914d550"
 		},
 		"res/UI/NotificationLayer.json": {
-			"md5": "26f2120447c5a219334c8ac8db4c1a3f"
+			"md5": "10f25db5453748bfa5bb3b1e4e0a0585"
 		},
 		"res/UI/Options.json": {
-			"md5": "08a618e3294d36cacebed39a67ced9a3"
+			"md5": "c8630b2d751b4ad794427ae162fc3a69"
+		},
+		"res/UI/Options_GBA.json": {
+			"md5": "555e9bc401fea21a74a1f00ea8402c99"
+		},
+		"res/UI/Options_MAME.json": {
+			"md5": "03b7a8d4c1d730c4cd747c1733f2ce34"
+		},
+		"res/UI/Options_N64.json": {
+			"md5": "27d2c7bb3a6729ce61c9eefd2dedc04b"
+		},
+		"res/UI/Options_SNES.json": {
+			"md5": "16997b4014b46fe099d655bf8148a758"
+		},
+		"res/UI/Options_SNK.json": {
+			"md5": "fb65cf3d8a94916a310b9c9e71d13b34"
+		},
+		"res/UI/PromoGame.json": {
+			"md5": "f4f4859d0a3a05cbc578fb268a7a9b45"
 		},
 		"res/UI/RateLayer.json": {
-			"md5": "bbc0ba1d22cf4ce72692b9c461cc1358"
+			"md5": "e9f76cd34370746d7012141a94aeb934"
 		},
 		"res/UI/RemoveADSLayer.json": {
-			"md5": "294944d1e850953ba35c979b5cdc91db"
+			"md5": "57613cfc46e7a2b6e4a6f6058111abc1"
 		},
 		"res/UI/RomCell.json": {
-			"md5": "c9e0f440c296c6a09d182d0cf63bae09"
+			"md5": "c35fc4dc2f924f3cdd6adf1d6b9e1e38"
+		},
+		"res/UI/RomCell_Single.json": {
+			"md5": "af7c88d95b2fadfc2fb9197442d3db3f"
 		},
 		"res/UI/RomInfo.json": {
 			"md5": "041e994e9e6b1ae5714f8dad68ec6e66"
@@ -5018,7 +5183,7 @@
 			"md5": "4f15177203a85548c38e3fec29e02ce5"
 		},
 		"res/UI/Shop.json": {
-			"md5": "65289da17539d7db4016149e974d404e"
+			"md5": "96e118332b191d0b5d7777d1488cfcbb"
 		},
 		"res/UI/signalstatus/00.png": {
 			"md5": "231e78c38be86a4e99cb6e1d68112c08"
@@ -5035,14 +5200,116 @@
 		"res/UI/signalstatus/44.png": {
 			"md5": "f2cb581524aa6f182e116eac4bbfe3c5"
 		},
+		"res/UI/snk/587461.jpg": {
+			"md5": "6f1b3aca618f826088fa1e2c7905d663"
+		},
+		"res/UI/snk/bg_blur.jpg": {
+			"md5": "fa9863f72a7a6d19551cc8a886b9af15"
+		},
+		"res/UI/snk/metal-slug-x-wallpaper.jpg": {
+			"md5": "f5cdc45fcab1febffc3a5b4019cc89d8"
+		},
+		"res/UI/snk/mslug001.png": {
+			"md5": "b4ad29ec729c4aca38c86f771f95179c"
+		},
+		"res/UI/snk/mslug2001.png": {
+			"md5": "f1a3c8213eca00b715c76c265a82776b"
+		},
+		"res/UI/snk/mslug3001.png": {
+			"md5": "16e95ec35629b8ac613f89c3b3286c88"
+		},
+		"res/UI/snk/mslug3b6001.png": {
+			"md5": "c8015cdf43dbb8921acdb0c3ff36d214"
+		},
+		"res/UI/snk/mslug4001.png": {
+			"md5": "14cb515a15bd6ed0e280a1890f1e968a"
+		},
+		"res/UI/snk/mslug5001.png": {
+			"md5": "00e3aedbdf7a00381612c9757a232ecf"
+		},
+		"res/UI/snk/mslugx001.png": {
+			"md5": "addb68ffbf8f50456d91f82a2f546548"
+		},
 		"res/UI/StartupMenu.json": {
-			"md5": "7d38ae504d1f7f0d76c6d237052bac5f"
+			"md5": "1e5d23be09c61924d675d6a96dc26e98"
 		},
 		"res/UI/StartupScene.json": {
-			"md5": "0dd5ddd9a25332b9eb5127c03c671d9b"
+			"md5": "c7d6b099fb7b5d4eeaf1a945e28984bd"
+		},
+		"res/UI/StartupScene_ArcadeGames.json": {
+			"md5": "1582250d8ebb103efccdf888f595431c"
+		},
+		"res/UI/StartupScene_BattleCity.json": {
+			"md5": "aa168bee6995f05e7353c19c9222a915"
+		},
+		"res/UI/StartupScene_Contra.json": {
+			"md5": "84c98afa8b755b0e5554936528cd88df"
+		},
+		"res/UI/StartupScene_DonkeyKong.json": {
+			"md5": "fa0564e1aa24df419d8552ec6c350fed"
+		},
+		"res/UI/StartupScene_EmulatorGames.json": {
+			"md5": "d04a593517fb6499a79857c4f7c8a93f"
+		},
+		"res/UI/StartupScene_EmulatorGames_NQC.json": {
+			"md5": "89155650f746549b272837ec455a7b1f"
+		},
+		"res/UI/StartupScene_FCEMU.json": {
+			"md5": "997b17233a31c760bbc2e00091addb60"
+		},
+		"res/UI/StartupScene_GBA.json": {
+			"md5": "65b5edb7cb7719e431fe942cbf404bfc"
+		},
+		"res/UI/StartupScene_IslandAdventure.json": {
+			"md5": "1dd29d69fb5ea008559c49aa0b1f97eb"
+		},
+		"res/UI/StartupScene_MAMEArcade.json": {
+			"md5": "c617343a55c2b602dd750047cede14be"
+		},
+		"res/UI/StartupScene_Mario.json": {
+			"md5": "540e13a61d4a6ca4ee5522032c3199a4"
+		},
+		"res/UI/StartupScene_MarioBros.json": {
+			"md5": "76fa09de457e1ea50c7a4139dddbb1f4"
+		},
+		"res/UI/StartupScene_Mario_NQC.json": {
+			"md5": "bc26e00c27b343fe7d41275fe1fbf700"
+		},
+		"res/UI/StartupScene_MetalSlugFC.json": {
+			"md5": "62482f4716dd3e0713e2354df1d64384"
+		},
+		"res/UI/StartupScene_MetalSoldier.json": {
+			"md5": "7664ac74432f68eed21ed7155cfbe7d1"
+		},
+		"res/UI/StartupScene_NESFC.json": {
+			"md5": "7382f48a8f0671ec11cf67fd910ac560"
+		},
+		"res/UI/StartupScene_NES_Dave0519.json": {
+			"md5": "146a3cf91745e16c2c4e240e5b757685"
+		},
+		"res/UI/StartupScene_NostalgiaSaga.json": {
+			"md5": "e7e6bbe11cf914343ed472605d710566"
+		},
+		"res/UI/StartupScene_NostalgiaSaga_Dave0519.json": {
+			"md5": "ef4e27a4ce1baf2d55a42cc0675ac893"
+		},
+		"res/UI/StartupScene_Project64.json": {
+			"md5": "5f11400c31d5afa35d3b6a49fcc5460d"
 		},
 		"res/UI/StartupScene_Retro64.json": {
-			"md5": "c32c8379a3b7c1c19ca4b45f0e9bb38c"
+			"md5": "e954d649d7097f4875724106084cac5b"
+		},
+		"res/UI/StartupScene_Retro64_All.json": {
+			"md5": "d0b66945960068f2f6d1e2052165831b"
+		},
+		"res/UI/StartupScene_RetroGame_NQC.json": {
+			"md5": "5e79eb0c8df2773b3a29408c6b53bff0"
+		},
+		"res/UI/StartupScene_SNK.json": {
+			"md5": "c036444ae7a92fefafe8be9b8093cb3c"
+		},
+		"res/UI/StartupScene_TankBattle.json": {
+			"md5": "492f8cdddae4655a23ef5e88ca1883e3"
 		},
 		"res/UI/store/bg.png": {
 			"md5": "0a615473c6e6d9c43a37dd65deaf5005"
@@ -5061,6 +5328,9 @@
 		},
 		"res/UI/ToastLayer.json": {
 			"md5": "c2e9a18accb20287809e08015a7d08e1"
+		},
+		"res/UI/wp2608155.jpg": {
+			"md5": "aa3b4699b7498d3460d3f747a8997887"
 		},
 		"script/3d/jsb_cocos2d_3d.js": {
 			"md5": "231595ffd7eba6f80b5d0b75fee69062"
@@ -5396,7 +5666,7 @@
 			"md5": "a026aa29ace543ebf8357651c0535774"
 		},
 		"src/framework/plugins/GameAdapter.js": {
-			"md5": "3af6dd820f0a43f3de84d2344b38914e"
+			"md5": "a24fe0fe8e4ebfb6eac2ca3d8a2e798a"
 		},
 		"src/framework/plugins/GameAnalytics.js": {
 			"md5": "72ff17030c488c09e4de94ef55100f49"
@@ -5405,7 +5675,7 @@
 			"md5": "e06859bbce0363d9856c18661afbf0eb"
 		},
 		"src/framework/plugins/Google.js": {
-			"md5": "d31ec4a14f8788c745aa9ee74d40aee0"
+			"md5": "bbf371708363656813e044dcdcf1c50d"
 		},
 		"src/framework/plugins/IronSource.js": {
 			"md5": "9ae9142864c144f2b3cef78a2af1ba6b"
@@ -5414,7 +5684,7 @@
 			"md5": "35bb8f53cc21d2d600101ebd3fc7ad9f"
 		},
 		"src/framework/plugins/PlatformWrapper.js": {
-			"md5": "5e107ab38bf2c0a90a36f926dc171e74"
+			"md5": "e603000fc5f6ae9cbd41d97858dfd665"
 		},
 		"src/framework/plugins/Portal.js": {
 			"md5": "e943e77a0f1944259e0dc8f1b1a766bd"
@@ -5459,7 +5729,7 @@
 			"md5": "b1514c34539f081c7caccc235a30c133"
 		},
 		"src/framework/Utility/Network.js": {
-			"md5": "2d8300aea6011fd7674cd72edfb5fdb4"
+			"md5": "d65e854b2ac58af4eb400e12919647ee"
 		},
 		"src/framework/Utility/Random.js": {
 			"md5": "d5ac2d9a9d1a55ad73ee0b9f684aefb0"
@@ -5474,10 +5744,10 @@
 			"md5": "1fbbf170a6d2ee95f160f83dbb1b7ca0"
 		},
 		"src/NES/adsMgr.js": {
-			"md5": "bd15d690d545388c2f00e0eed7fc6d9a"
+			"md5": "7012084cfca1b871bf44513b5a268e7f"
 		},
 		"src/NES/Constant.js": {
-			"md5": "ba2009401c1a469713b3143eb1a99eda"
+			"md5": "cdd598a589c99a5a3609bd40e88f2e7c"
 		},
 		"src/NES/Debug/DebugNode.js": {
 			"md5": "f7cfceecfb2eff40e6cae0d08c6bf2b8"
@@ -5516,97 +5786,121 @@
 			"md5": "b5e54ca678dc4b43dafc0d95057029ac"
 		},
 		"src/NES/Game/GameLayer.js": {
-			"md5": "51480d3983759d375da4085010f81b31"
+			"md5": "8b0bfa6ecacee334fa9ffa138cf8f9a0"
+		},
+		"src/NES/Game/GameLayerMAME.js": {
+			"md5": "daa2eb375f9c4bf2707f2da50705c482"
 		},
 		"src/NES/Game/GameLayerN64.js": {
-			"md5": "6d6cb5b7e6563be5154ae4f8ab210ae5"
+			"md5": "52aa438ef7c3656b7227989246261e33"
+		},
+		"src/NES/Game/GameLayerSNK.js": {
+			"md5": "231b995bda7662c1849fbb7b3316bedf"
 		},
 		"src/NES/Game/Gamepad.js": {
-			"md5": "6dd3d490e3e59a2e783396b7600876c1"
+			"md5": "7852f68b3c3326092e4109b15e1e1f61"
 		},
 		"src/NES/Game/Joystick.js": {
-			"md5": "eadee8f8d74dc6ce1167e5010824734f"
+			"md5": "92a99db046682c34374c02a9fe431347"
 		},
 		"src/NES/gamedata.js": {
-			"md5": "d4b93d05dead63641c7313275b013aa3"
+			"md5": "4e90d001d5e84261b859d0cfd4f22f0c"
 		},
 		"src/NES/Home/FindROMLayer.js": {
-			"md5": "bc9ac1ad85cb1c3d8a659988b99e008a"
+			"md5": "a11857973e4c06cbc4a7a45cf9df99ce"
 		},
 		"src/NES/Home/Home.js": {
-			"md5": "a85c00643f4df43ad1bc117219b89cd6"
+			"md5": "3da04ebcf910ffb1ecffb3be85399252"
 		},
 		"src/NES/Home/InfoRomLayer.js": {
-			"md5": "717ba7d43eb0e58e3056d79e77019072"
+			"md5": "3bd93570806afec15d594547d78fed25"
+		},
+		"src/NES/Home/ListRomCommon.js": {
+			"md5": "ec2c77dad038aa9258cf6ea346cf02bf"
 		},
 		"src/NES/Home/ListRomGBALayer.js": {
-			"md5": "2c1575c679a6e46974b9b07ed32f839b"
+			"md5": "bdeb0b14ba1b952607a4e39444642bc0"
 		},
 		"src/NES/Home/ListRomLayer.js": {
-			"md5": "32fece70ec442d00087a253b1181e007"
+			"md5": "b6c563457eb873ac8f4d4b0fe3c3d6c8"
+		},
+		"src/NES/Home/ListRomMAME.js": {
+			"md5": "1dfbd1128b78d0ebb0d8dc1c772cbacf"
 		},
 		"src/NES/Home/ListRomN64Layer.js": {
-			"md5": "42e71786b5c71a6eb9c58799f4c599bf"
+			"md5": "6bf3f113ba63cd7c3945ffb65e653af7"
 		},
 		"src/NES/Home/ListRomSNESLayer.js": {
-			"md5": "24310ba45e3606d6c3dc48e34f2f1da0"
+			"md5": "9d10f3acdb917404b848ec438c8b5d40"
 		},
 		"src/NES/Home/MenuLayer.js": {
-			"md5": "4ce4aedef9b70804b751270f10c033fa"
+			"md5": "9922e413b109949f90730906f189662e"
+		},
+		"src/NES/Home/Promo/PromoLayer.js": {
+			"md5": "0b7e0e057dfb95b3f295171921c4dc73"
 		},
 		"src/NES/Home/RemoveADSLayer.js": {
-			"md5": "8389fbe455a94c84039f163c82f5902f"
+			"md5": "943b31c0bf05858f60f9912202344b3c"
 		},
 		"src/NES/Home/Shop.js": {
-			"md5": "115ab64fab72b6c8ab758b84551019cc"
+			"md5": "30bb43071da4cf9439a5b94f5b880da3"
 		},
 		"src/NES/Home/StartupScene.js": {
-			"md5": "73ecd24dafaf674c80066a0ff6b5c111"
+			"md5": "db535c69505b317aca7b438ead9527ce"
 		},
 		"src/NES/initForWeb.js": {
-			"md5": "c785a44e41b7296ec26baff22bf016ab"
+			"md5": "7c011e76000cab79d022a3b8cfdc2ae5"
 		},
 		"src/NES/logic/config.js": {
-			"md5": "33dda69b919c6ba1f2783deb72257d8b"
+			"md5": "2f276b6e0114b1db2f41a626c5987030"
 		},
 		"src/NES/logic/datamanager.js": {
-			"md5": "2c8d7553162151fff7c9357b77d20aff"
+			"md5": "245a0fa731e2d26cd6540ea0bfe0c706"
 		},
 		"src/NES/logic/downloadMgr.js": {
 			"md5": "c536268f60f2e08f6fc2b8baf334dcfa"
 		},
 		"src/NES/Multiplayer/Frame.js": {
-			"md5": "57c73cf89dd0acbb1ba67f81d1587aaf"
+			"md5": "8babe7e420a7b2d6e7b0121feb063cdd"
+		},
+		"src/NES/Multiplayer/GameState.js": {
+			"md5": "ab94ac7056878849f56b74d699be424a"
+		},
+		"src/NES/Multiplayer/Messages/Actions.js": {
+			"md5": "77ad8e36630e20c31ec512590936506b"
+		},
+		"src/NES/Multiplayer/Messages/Messages.js": {
+			"md5": "b642649f359e6d2c414fa100d3986a12"
 		},
 		"src/NES/Multiplayer/MultiplayAdapter.js": {
-			"md5": "1da5474ac37209736c74e39825de76b6"
+			"md5": "8b58f75784b617c6919d0ea9985f0958"
 		},
 		"src/NES/Multiplayer/MultiplayController.js": {
-			"md5": "8b8d1108ec0e3445c6881f338f258310"
+			"md5": "8d1dff436f0d821d0bcfa34a1da9ff2d"
 		},
 		"src/NES/Multiplayer/MultiplayLayer.js": {
-			"md5": "8517477ae8ac9fbe5c6b3bee58d10c66"
+			"md5": "e09844ff9d2a731009f9b56932543806"
 		},
 		"src/NES/NESViewer.js": {
-			"md5": "62dfafe98cf165e1a89ae8117a854510"
+			"md5": "f86140bb2b11ba0023c6302b84842d8f"
 		},
 		"src/NES/Notification/NotificationNode.js": {
 			"md5": "8713e58aac9047ed9e8325d241d3ff82"
 		},
 		"src/NES/TestLayer.js": {
-			"md5": "6f75bada53b6b9aae03ca89d7480fab7"
+			"md5": "db152d2c52b1d698698fd93f57f7fa6c"
 		},
 		"src/NES/tracking.js": {
-			"md5": "c710f620fbce63b307b641579a7b8ff1"
+			"md5": "5d9cc5c9f63b59201470293732bb1643"
 		},
 		"src/NES/UI/BaseLayer.js": {
 			"md5": "ddf95796444ad3e7c9299de2f15606fd"
 		},
 		"src/NES/UI/Dialog.js": {
-			"md5": "fa33914ddbfa135ab4f30d176b0430fa"
+			"md5": "c351025acd6b27756ab7f1c12a393cd5"
 		},
 		"src/NES/UI/OptionLayer.js": {
-			"md5": "3766a9dcd7afb53273f9c06839d41bde"
+			"md5": "ab3b8a8a8f4fcc59f2b7a66f667454d7"
 		},
 		"src/plugin/Facebook.js": {
 			"md5": "f6d6cf699715410479f90a8d087baffb"
@@ -5618,7 +5912,7 @@
 			"md5": "da33cc8f44cb962c90e2d317ec93d173"
 		},
 		"src/resource.js": {
-			"md5": "c1ebd4e9082cd672aa0189ee125ddd15"
+			"md5": "cae9e73b6a766d75a5a54fbb8e00a988"
 		}},
 	"group" : {},
     "searchPaths" : []
